@@ -10,8 +10,8 @@ const renderFullPage = (html, initialState) => {
         <title>React Router Redux Express</title>
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/static/stylesheets/main.css">
+        <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+        <link rel="stylesheet" href="/stylesheets/main.css">
       </head>
       <body>
         <div id="reactbody">
@@ -20,7 +20,7 @@ const renderFullPage = (html, initialState) => {
         <script>
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)}
         </script>
-        <script src="/static/app.bundle.js"></script>
+        <script src="/js/app.bundle.js"></script>
       </body>
     </html>
     `
